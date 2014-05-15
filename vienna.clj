@@ -4,6 +4,8 @@
 ;;
 ;; The code below can get the bicyclist home... ignoring important constraints.
 ;; It lacks error handling, name spacing, and pull requests to add all that.
+;;
+;; Blog post for more details on a Viennese Maze: http://zulko.github.io/blog/2014/04/27/viennese-mazes-what-they-are/
 
 ;; it's a map! it's a function!
 (def next-light
