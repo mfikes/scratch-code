@@ -1,6 +1,6 @@
 ;; This code was worked out in a group to start solving a small
 ;; portion of a Viennese maze, specifically the 4 top left nodes (a, b, e, f)
-;; of https://i.imgur.com/j2gWurM.jpg
+;; of the square maze at https://i.imgur.com/j2gWurM.jpg
 ;;
 ;; The code below can get the bicyclist home... ignoring important constraints.
 ;; It lacks error handling, name spacing, and pull requests to add all that.
