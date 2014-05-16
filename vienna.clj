@@ -15,10 +15,10 @@
 
 (def world
   {:location :a
-   :nodes {#{:a :b} :y
-           #{:a :e} :g
-           #{:b :f} :g
-           #{:f :e} :g}})
+   :nodes    {#{:a :b} :y
+              #{:a :e} :g
+              #{:b :f} :g
+              #{:f :e} :g}})
 
 (defn map-vals
   [m f]
@@ -28,7 +28,7 @@
   (-> world
       (assoc
           :last-location (:location world)
-          :location       new-location)
+                         :location new-location)
       (update-in
-       [:nodes]
-       (fn [nodes] (map-vals nodes next-light)))))
+        [:nodes]
+        (fn [nodes] (map-vals nodes next-light)))))
